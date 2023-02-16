@@ -1,0 +1,3 @@
+ng g c component-name -module app
+
+angular generate component name - configure and attach to app module
