@@ -1,4 +1,4 @@
-namespace TestProject2
+namespace Planeio
 {
     public class WeatherForecast
     {

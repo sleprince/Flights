@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { SearchFlightsComponent } from './search-flights/search-flights.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { SearchFlightsComponent } from './search-flights/search-flights.componen
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' }
+      { path: '', component: SearchFlightsComponent, pathMatch: 'full' }
     ])
   ],
   providers: [],

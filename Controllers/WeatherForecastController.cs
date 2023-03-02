@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace TestProject2.Controllers
+namespace Planeio.Controllers
 {
     [ApiController]
     [Route("[controller]")]
